@@ -1,0 +1,32 @@
+# Java / Maven
+backend/target/
+*.class
+*.jar
+*.war
+
+# Node / React
+frontend/node_modules/
+frontend/dist/
+.env
+.env.local
+
+# Python
+python-service/__pycache__/
+python-service/*.pyc
+python-service/.venv/
+
+# Docker
+.docker/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets — kabhi push mat karna
+*.pem
+*.key
