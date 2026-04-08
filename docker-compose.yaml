@@ -72,7 +72,10 @@ services:
       retries: 3
 
   frontend:
-    build: ./frontend
+    build:
+      context: ./frontend
+      args:
+        VITE_API_URL: http://13.232.192.246:8080/api
     container_name: shopeasy-frontend
     ports:
       - "3000:80"
