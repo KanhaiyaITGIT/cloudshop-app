@@ -29,8 +29,6 @@ public class Product {
     @Column(nullable = false)
     private BigDecimal price;
 
-    private Integer stock = 0;
-
     @Builder.Default
     private Boolean active = true;
 
