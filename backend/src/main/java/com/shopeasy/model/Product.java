@@ -31,7 +31,11 @@ public class Product {
 
     private Integer stock = 0;
 
+    @Builder.Default
     private Boolean active = true;
+
+    @Builder.Default
+    private Integer stock = 0;
 
     private LocalDateTime createdAt = LocalDateTime.now();
 }
